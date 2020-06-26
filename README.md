@@ -1,16 +1,18 @@
-# widgets_flutter
+# APP PARA TESTAR E APRENDER FLUTTER USANDO A PLAYLIST DO CANAL EVENUSFI 
 
-A new Flutter project.
+    https://www.youtube.com/playlist?list=PLuZ4Bb4wfX9WAkxxkoOjc0l2sgWBvnl-D
 
-## Getting Started
+## MODO DE USAR
+ 
+    * Criar um novo arquivo em /lib/ com o nome do widget
+    * Criar um Stateless ou Statefull com o nome desejado
+    * Em /lib/main.dart chamar o seu widget substituindo o valor do body:
 
-This project is a starting point for a Flutter application.
+### CONTATOS 
 
-A few resources to get you started if this is your first Flutter project:
+    * aroldo.esmerio@gmail.com 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### MAIORES INFORMAÇOES 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    * Este app foi criado para fins de estudo tanto de Flutter quanto de Git 
+    * Estou disponível para criticas construtivas e aprendizado
