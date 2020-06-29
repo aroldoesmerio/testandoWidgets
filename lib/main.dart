@@ -1,10 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:widgets_flutter/aula3_icones.dart';
-
-
-
+import 'package:widgets_flutter/gradiente.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,11 +23,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.purple[100],
-        body: Icones()
-       
-
-    );
-}
+    return Scaffold(backgroundColor: Colors.purple[100], body: Gradiente());
+  }
 }
