@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_flutter/botoes.dart';
 import 'package:widgets_flutter/gradiente.dart';
 
 void main() {
@@ -23,6 +24,9 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.purple[100], body: Gradiente());
+    return Scaffold(
+      backgroundColor: Colors.purple[100],
+      body: Botoes(),
+    );
   }
 }
