@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_flutter/botoes.dart';
-import 'package:widgets_flutter/gradiente.dart';
+
+import 'fontes.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purple[100],
-      body: Botoes(),
+      body: Fontes(),
     );
   }
 }
