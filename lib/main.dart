@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_flutter/media_querie.dart';
 
 import 'fontes.dart';
 
@@ -26,7 +27,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purple[100],
-      body: Fontes(),
+      body: MediaQueriex(),
     );
   }
 }
