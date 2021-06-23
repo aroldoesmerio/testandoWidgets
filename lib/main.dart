@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_flutter/media_querie.dart';
-
-import 'fontes.dart';
+import 'package:widgets_flutter/alignment.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +25,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purple[100],
-      body: MediaQueriex(),
+      body: EvenusFiAlignment(),
     );
   }
 }
